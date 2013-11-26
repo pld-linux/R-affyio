@@ -2,12 +2,12 @@
 
 Summary:	Tools for parsing Affymetrix data files
 Name:		R-%{packname}
-Version:	1.26.0
+Version:	1.30.0
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	49f79ea18618b82e1babfd146faabf68
+# Source0-md5:	5a26b715296921b05ab788e6af2a3e09
 Patch0:		no-zlibbioc.patch
 URL:		http://bioconductor.org/packages/release/bioc/html/affyio.html
 BuildRequires:	R
